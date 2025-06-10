@@ -1,0 +1,123 @@
+basic:
+    name: 'https://dewereldvankina.stad.gent'
+    environments:
+        production: 'https://dewereldvankina.stad.gent'
+        staging: 'https://dewereldvankina.qa.stad.gent'
+        development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: qa, password: assurance }
+        development: { user: '', password: '' }
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /nieuws
+        - /over-het-museum
+        - /praktisch
+        - /met-je-gezin-naar-het-museum
+        - /met-de-klas-naar-het-museum
+        - /collectie-overzicht
+        - /tentoonstellingen
+        - /agenda
+        - /nieuws/reserveer-vooraf-je-bezoek-en-bekijk-de-coronamaatregelen
+        - /dagjan
+        - /zee
+        - /wat-de-wereld-van-kina
+        - /nieuws/op-virtueel-bezoek-de-wereld-van-kina
+        - /nieuws/gezocht-jouw-mening-over-de-krokusspeurtochten
+        - /nieuws/memoriam-michel-thiery-13111924-3112020
+        - /activiteit/vos-en-haas-en-de-seizoenen
+        - /activiteit/bomenwandeling-de-gentse-binnenstad
+        - /activiteit/workshop-dag-jan-voor-kinderen
+        - /collecties/gesteenten-en-mineralen
+        - /collecties/vogels
+        - /collecties/spinnen
+        - /collecties/planten
+        - /collecties/insecten
+        - /collecties/dieren-uit-de-zee
+        - /collecties/wandkaarten
+        - /collecties/archeologische-collectie
+        - /collecties/didactische-collectie
+        - /collecties
+        - /info/privacy
+        - /nieuws/merkwaardige-gentse-bomen-verzameld-boek
+        - /nieuws/educatief-aanbod-schooljaar-2020-2021
+        - /nieuws/tips-om-thuis-te-doen
+        - /nieuws/dag-jan-het-kleine-rijk-van-jan-van-eyck
+        - '/nieuws#block-subscribetonewsletter'
+        - /over-ons
+        - /museumshop
+        - /vzw
+        - /vrijwilligers
+        - /museumreglement
+        - /stages-en-pedagogische-rondleidingen
+        - /bezoek/tentoonstellingen-de-tuin
+        - /bezoek/tentoonstellingen-het-huis
+        - /bezoek/speuren-de-museumtuin
+        - /bezoek/het-menselijk-lichaam-0
+        - /bezoek/vos-en-haas-en-de-seizoenen-0
+        - /bezoek/erfgoedapp-kei-cool
+        - /bezoek/honingbij
+        - /bezoek/klasbezoektinkeltuin
+        - /tentoonstelling/vos-en-haas-en-de-seizoenen
+        - /tentoonstelling/keicool
+        - /tentoonstelling/lieve-heersbeestje
+        - /tentoonstelling/spinnen-spinsels
+        - '/tentoonstellingen?item_location%5B7%5D=7'
+        - /susketwiet
+        - '/tentoonstellingen?page=1'
+        - /tentoonstelling/bloemmodellen
+        - /tentoonstelling/de-mens
+        - /tentoonstelling/evolutie-de-mens
+        - /tentoonstelling/evolutie-nieuwe-tijd
+        - /tentoonstelling/van-cambrium-tot-krijt
+        - /tentoonstelling/goede-minnaars
+        - '/tentoonstellingen?page=2'
+        - /tentoonstelling/plantaardigplantbeeldig
+        - /tentoonstelling/tinkeltuin
+        - /activiteit/de-groene-vingers-van-van-eyck-lezing-door-inge-misschaert
+        - '/tentoonstellingen?item_location%5B8%5D=8'
+        - '/search/node?keys=van%20eyck'
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/Brussels
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: "[data-target='SG-CookieConsent']"
+    remove: ''
+    delay: 0
+    scroll: false
+    headers:
+        - { value: '', header: '' }
+    cookies: "CookieConsent={stamp:'SfuDnX8lb16A6EdWHLXnp6rL/M48Mu0ed3idL7EezUSXY8sTtzKK7A=='%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1586194359794%2Cregion:'be'}"
+    custom_js: ''
+    custom_css: ''
+    mock_content:
+        - { type: title, selector: '' }
+    sensitivity: 30
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
