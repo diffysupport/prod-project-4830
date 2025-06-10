@@ -1,8 +1,8 @@
 basic:
     name: 'https://dewereldvankina.stad.gent'
     environments:
-        production: 'https://dewereldvankina.stad.gent'
-        staging: 'https://dewereldvankina.qa.stad.gent'
+        production: 'https://kina.stad.gent/'
+        staging: 'https://kina.qa.stad.gent/'
         development: ''
     basicAuth:
         production: { user: '', password: '' }
@@ -16,71 +16,19 @@ basic:
         - /
         - /nieuws
         - /over-het-museum
-        - /praktisch
-        - /met-je-gezin-naar-het-museum
-        - /met-de-klas-naar-het-museum
-        - /collectie-overzicht
+        - /plan-je-bezoek
         - /tentoonstellingen
+        - /met-je-klas-naar-het-museum
+        - /collectie
         - /agenda
-        - /nieuws/reserveer-vooraf-je-bezoek-en-bekijk-de-coronamaatregelen
-        - /dagjan
-        - /zee
-        - /wat-de-wereld-van-kina
-        - /nieuws/op-virtueel-bezoek-de-wereld-van-kina
-        - /nieuws/gezocht-jouw-mening-over-de-krokusspeurtochten
-        - /nieuws/memoriam-michel-thiery-13111924-3112020
-        - /activiteit/vos-en-haas-en-de-seizoenen
-        - /activiteit/bomenwandeling-de-gentse-binnenstad
-        - /activiteit/workshop-dag-jan-voor-kinderen
-        - /collecties/gesteenten-en-mineralen
-        - /collecties/vogels
-        - /collecties/spinnen
-        - /collecties/planten
-        - /collecties/insecten
-        - /collecties/dieren-uit-de-zee
-        - /collecties/wandkaarten
-        - /collecties/archeologische-collectie
-        - /collecties/didactische-collectie
-        - /collecties
-        - /info/privacy
-        - /nieuws/merkwaardige-gentse-bomen-verzameld-boek
-        - /nieuws/educatief-aanbod-schooljaar-2020-2021
-        - /nieuws/tips-om-thuis-te-doen
-        - /nieuws/dag-jan-het-kleine-rijk-van-jan-van-eyck
-        - '/nieuws#block-subscribetonewsletter'
-        - /over-ons
-        - /museumshop
-        - /vzw
-        - /vrijwilligers
-        - /museumreglement
-        - /stages-en-pedagogische-rondleidingen
-        - /bezoek/tentoonstellingen-de-tuin
-        - /bezoek/tentoonstellingen-het-huis
-        - /bezoek/speuren-de-museumtuin
-        - /bezoek/het-menselijk-lichaam-0
-        - /bezoek/vos-en-haas-en-de-seizoenen-0
-        - /bezoek/erfgoedapp-kei-cool
-        - /bezoek/honingbij
-        - /bezoek/klasbezoektinkeltuin
-        - /tentoonstelling/vos-en-haas-en-de-seizoenen
-        - /tentoonstelling/keicool
-        - /tentoonstelling/lieve-heersbeestje
-        - /tentoonstelling/spinnen-spinsels
-        - '/tentoonstellingen?item_location%5B7%5D=7'
-        - /susketwiet
-        - '/tentoonstellingen?page=1'
-        - /tentoonstelling/bloemmodellen
-        - /tentoonstelling/de-mens
-        - /tentoonstelling/evolutie-de-mens
-        - /tentoonstelling/evolutie-nieuwe-tijd
-        - /tentoonstelling/van-cambrium-tot-krijt
-        - /tentoonstelling/goede-minnaars
-        - '/tentoonstellingen?page=2'
-        - /tentoonstelling/plantaardigplantbeeldig
-        - /tentoonstelling/tinkeltuin
-        - /activiteit/de-groene-vingers-van-van-eyck-lezing-door-inge-misschaert
-        - '/tentoonstellingen?item_location%5B8%5D=8'
-        - '/search/node?keys=van%20eyck'
+        - /activiteit/brugdag-museum-gesloten
+        - /activiteit/luisterende-oortjes
+        - /activiteit/kina-kids-insectikids
+        - /nieuws/kunstproject-de-plantentuin-legt-nieuwsgierige-dieren-vast-op-camera
+        - /nieuws/zeg-maar-kina
+        - /nieuws/100-jaar-dit-was-het-oogstfeest
+        - /privacy
+        - /cookiebot-renew
     monitoring:
         days: {  }
         type: ''
