@@ -90,7 +90,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: "#SG-CookieConsent\n"
+    remove: "#SG-CookieConsent\n[data-target='SG-CookieConsent']"
     delay: 0
     scroll: false
     headers:
